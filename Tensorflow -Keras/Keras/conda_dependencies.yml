@@ -1,0 +1,21 @@
+name: class-deep-learning-env
+channels:
+  - conda-forge
+dependencies:
+  - python=3.10
+  - pip
+  - pandas
+  - matplotlib
+  - seaborn
+  - scikit-learn
+  - joblib
+  - Pillow
+  - numpy
+  - pip:
+      - mlflow==3.0.0
+      - azureml-mlflow
+      - opencv-python-headless
+      - mltable
+      - tensorflow
+      - keras 
+  
